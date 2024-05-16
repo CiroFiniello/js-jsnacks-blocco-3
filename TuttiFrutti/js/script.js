@@ -7,3 +7,10 @@ if ( chiedi === 'si'){
 } else{
     alert('no bueno!');
 }
+let fruttofind = false;
+for (let index = 0; index < frigorifero.length; index++) {
+    if(frigorifero[index] === 'cocomero'){
+        fruttofind = true;
+    }
+}
+console.log(fruttofind);
