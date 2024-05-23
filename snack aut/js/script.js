@@ -1,39 +1,63 @@
-// > Crea un array composto da 15 automobili.
-// > Ogni oggetto automobile avrà le seguenti proprietà: marca, modello e alimentazione (benzina, diesel, gpl, elettrico, metano).
-// < Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
-// < Infine stampa separatamente i 3 array.
 
-const garage = [
+// Crea un array di oggetti che rappresentano delle persone, 10.
+// Ogni persona ha un nome, un cognome e un'età.
+
+// Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l'indicazione se può guidare, in base all'età.
+
+
+const classe = [
     {
-        marca: 'audi',
-        modello: 'r8',
-        alimentazione: 'benz' ,
+        nome: 'asia',
+        cognome: 'rossi',
+        eta: 10,
     },
     {
-        marca: 'bmw',
-        modello: 'z3',
-        alimentazione: 'benz' ,
+        nome: 'valerio',
+        cognome: 'russo',
+        eta: 40,
     },
     {
-        marca: 'volkswagen',
-        modello: 'golf',
-        alimentazione: 'diesel' ,
-    },  {
-        marca: 'audi',
-        modello: '80',
-        alimentazione: 'diesel' ,
+        nome: 'mena',
+        cognome: 'rossa',
+        eta: 50,
     },
     {
-        marca: 'ford',
-        modello: 'ram',
-        alimentazione: 'benz' ,
+        nome: 'malessr',
+        cognome: 'rosse',
+        eta: 15,
     },
     {
-        marca: 'volkswagen',
-        modello: 'golf',
-        alimentazione: 'diesel' ,
+        nome: 'maria',
+        cognome: 'rosso',
+        eta: 13,
+    },
+    {
+        nome: 'alessia',
+        cognome: 'rossi',
+        eta: 10,
+    },
+    {
+        nome: 'marco',
+        cognome: 'russo',
+        eta: 40,
+    },
+    {
+        nome: 'luca',
+        cognome: 'scanu',
+        eta: 50,
+    },
+    {
+        nome: 'rosa',
+        cognome: 'rosse',
+        eta: 15,
+    },
+    {
+        nome: 'marco',
+        cognome: 'rosso',
+        eta: 13,
     },
 ]
-
-
-
+const array =[];
+array.forEach(element => {
+    
+});
